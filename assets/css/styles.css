@@ -4,6 +4,10 @@ body {
 
 /*-- QUIZ --*/
 
+.hidden {
+    display: none;
+}
+
 .choice-container {
     display: flex;
     margin-bottom: 0.5rem;
