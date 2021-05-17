@@ -1,0 +1,81 @@
+[
+    {
+        "category":"General Knowledge",
+        "type":"multiple",
+        "difficulty":"medium",
+        "question":"In the Morse code, which letter is indicated by 3 dots? "
+        ,"correct_answer":"S",
+        "incorrect_answers":["O","A","C"]
+    },
+    {
+        "category":"General Knowledge",
+        "type":"multiple",
+        "difficulty":"medium",
+        "question":"After how many years would you celebrate your crystal anniversary?",
+        "correct_answer":"15",
+        "incorrect_answers":["20","10","25"]
+    },
+    {
+        "category":"General Knowledge",
+        "type":"multiple",
+        "difficulty":"medium",
+        "question":"What is the Swedish word for &quot;window&quot;?",
+        "correct_answer":"F&ouml;nster",
+        "incorrect_answers":["H&aring;l","Sk&auml;rm","Ruta"]
+    },
+    {
+        "category":"General Knowledge",
+        "type":"multiple",
+        "difficulty":"medium",
+        "question":"Who is the founder of &quot;The Lego Group&quot;?",
+        "correct_answer":"Ole Kirk Christiansen",
+        "incorrect_answers":[" Jens Niels Christiansen","Kirstine Christiansen"," Gerhardt Kirk Christiansen"]
+    },
+    {
+        "category":"General Knowledge",
+        "type":"multiple",
+        "difficulty":"medium",
+        "question":"In what year was McDonald&#039;s founded?",
+        "correct_answer":"1955",
+        "incorrect_answers":["1964","1951","1947"]
+    },
+    {
+        "category":"General Knowledge",
+        "type":"multiple",
+        "difficulty":"medium",
+        "question":"What was the soft drink Pepsi originally introduced as?",
+        "correct_answer":"Brad&#039;s Drink",
+        "incorrect_answers":["Pepsin Pop","Carolina Cola","Pepsin Syrup"]
+    },
+    {
+        "category":"General Knowledge",
+        "type":"multiple",
+        "difficulty":"medium",
+        "question":"Where does water from Poland Spring water bottles come from?",
+        "correct_answer":"Maine, United States",
+        "incorrect_answers":["Hesse, Germany","Masovia, Poland","Bavaria, Poland"]
+    },
+    {
+        "category":"General Knowledge",
+        "type":"multiple",
+        "difficulty":"medium",
+        "question":"Which of these words means &quot;idle spectator&quot;?",
+        "correct_answer":"Gongoozler",
+        "incorrect_answers":["Gossypiboma","Jentacular","Meupareunia"]
+    },
+    {
+        "category":"General Knowledge","type":"multiple",
+        "difficulty":"medium",
+        "question":"In ancient Greece, if your job were a &quot;hippeus&quot; which of these would you own?",
+        "correct_answer":"Horse",
+        "incorrect_answers":["Weave","Guitar","Boat"]
+    },
+    {
+        "category":"General Knowledge",
+        "type":"multiple",
+        "difficulty":"medium",
+        "question":"A statue of Charles Darwin sits in what London museum?",
+        "correct_answer":"Natural History Museum",
+        "incorrect_answers":["Tate","British Museum","Science Museum"]
+    }
+]

@@ -14,7 +14,7 @@ let availableQuestions = [];
 let questions = [];
 
 fetch(
-    'https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple'
+    'https://opentdb.com/api.php?amount=10&category=9&difficulty=medium&type=multiple'
 )
     .then((res) => {
         return res.json();
@@ -38,23 +38,23 @@ fetch(
             });
 
             return formattedQuestion;
-    });
+        });
 
-    startQuiz();
-})
-.catch((err) => {
-    console.error(err);
-});
+        startQuiz();
+    })
+    .catch((err) => {
+        console.error(err);
+    });
 
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 5;
 
 startQuiz = () => {
     questionCounter = 0;
-    score = 0;
+    currentScore = 0;
     availableQuestions = [...questions];
     getNewQuestion();
-    game.classList.remove('hidden');
+    quiz.classList.remove('hidden');
     loader.classList.add('hidden');
 };
 
@@ -64,7 +64,7 @@ getNewQuestion = () => {
         return window.location.assign('end.html');
     }
     questionCounter++;
-    progressText.innerText = Question `${questionCounter}/${MAX_QUESTIONS}}`;
+    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
