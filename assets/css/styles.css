@@ -1,5 +1,51 @@
 body {
     background-color: azure;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.page-wrap {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.page-wrap > * {
+    width: 100%;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.headline {
+    font-size: 5rem;
+    text-shadow: 2px 2px #fafafa;
+    padding-bottom: 1.5rem;
+}
+
+.quiz-buttons {
+    width: 100%;
+}
+
+.quiz-buttons a {
+    line-height: 54px;
+    width: 25%;
+    font-size: 1.6rem;
+    border-radius: 20px;
+    margin: 0 0.5rem;
+}
+
+.quiz-buttons a i {
+    padding-right: 5px;
 }
 
 /*-- QUIZ --*/
